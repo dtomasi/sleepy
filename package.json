@@ -1,0 +1,21 @@
+{
+  "name": "sleepy",
+  "version": "1.0.0",
+  "description": "Sleep-Timer built with Electron",
+  "main": "./dist/main.js",
+  "author": "Dominik Tomasi <dominik.tomasi@gmail.com>>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/tsc && ./node_modules/.bin/electron .",
+    "electron:linux": "./node_modules/.bin/tsc && ./node_modules/.bin/electron-builder build --linux",
+    "electron:windows": "./node_modules/.bin/tsc && ./node_modules/.bin/electron-builder build --windows",
+    "electron:mac": "./node_modules/.bin/tsc && ./node_modules/.bin/electron-builder build --mac"
+  },
+  "devDependencies": {
+    "electron": "^4.0.3",
+    "electron-builder": "^20.38.5",
+    "human-date": "^1.4.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1"
+  }
+}

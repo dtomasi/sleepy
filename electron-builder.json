@@ -1,0 +1,28 @@
+{
+  "productName": "Sleepy",
+  "directories": {
+    "output": "release/"
+  },
+  "files": [
+    "**/*",
+    "icons/**/*"
+  ],
+  "win": {
+    "icon": "icons",
+    "target": [
+      "portable"
+    ]
+  },
+  "mac": {
+    "icon": "icons",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "icons",
+    "target": [
+      "AppImage"
+    ]
+  }
+}
