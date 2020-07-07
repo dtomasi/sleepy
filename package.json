@@ -12,7 +12,7 @@
     "electron:mac": "./node_modules/.bin/tsc && ./node_modules/.bin/electron-builder build --mac"
   },
   "devDependencies": {
-    "electron": "^4.0.3",
+    "electron": "^7.2.4",
     "electron-builder": "^20.38.5",
     "human-date": "^1.4.0",
     "tslint": "^5.12.1",
